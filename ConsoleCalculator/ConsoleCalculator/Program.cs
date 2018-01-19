@@ -10,7 +10,10 @@ namespace ConsoleCalculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("mano pirma programa");
+            Console.WriteLine("mano pirma programa   Koks tavo vardas:");
+            string name = Console.ReadLine();
+            Console.WriteLine(" labas " + name);
+
             Console.ReadLine();
         }
     }
