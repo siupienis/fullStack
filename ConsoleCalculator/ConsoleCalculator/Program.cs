@@ -10,6 +10,8 @@ namespace ConsoleCalculator
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("mano pirma programa");
+            Console.ReadLine();
         }
     }
 }
